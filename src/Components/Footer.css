@@ -1,0 +1,46 @@
+.Footer{
+    background: #000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.Footer ul{
+    display: flex;
+    padding-left: 4rem;
+}
+.Footer ul li{
+    list-style: none;
+    padding: 1rem;
+}
+.Footer ul li a{
+    color: #fff;
+    font-size: 20px;
+}
+.Footer ul li a .Link-icon:hover{
+    transform: scale(1.1);
+}
+
+@media (max-width: 960px) {
+    .Footer {
+      align-items: center;
+      width: 135%;
+    }
+  
+    .Footer-title {
+      margin-top: 1rem;
+      padding: 0;
+    }
+  }
+@media (max-width: 460px) {
+    .Footer {
+      flex-direction: column;
+      align-items: center;
+      width: 145%;
+    }
+  
+    .Footer-title {
+      margin-top: 1rem;
+      padding: 0;
+    }
+  }
