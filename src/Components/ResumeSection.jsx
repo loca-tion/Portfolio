@@ -1,7 +1,7 @@
 import React from "react";
 import "./ResumeSection.css";
 import { FaDownload } from "react-icons/fa";
-import Resume from "../files/Sujalresume.pdf";
+import Resume from "../files/sujalresume.pdf";
 
 function ResumeSection() {
   return (
