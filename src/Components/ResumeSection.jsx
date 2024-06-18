@@ -1,7 +1,7 @@
 import React from "react";
 import "./ResumeSection.css";
 import { FaDownload } from "react-icons/fa";
-import Resume from "../files/Sujalresume.pdf";
+import Resume from "../files/SujalResume.pdf";
 
 function ResumeSection() {
   return (
@@ -26,7 +26,7 @@ function ResumeSection() {
                 <h3>National Institute of Technology, Hamirpur</h3>
                 <p>Computer Science and Engineering Student </p>
                 <p>
-                  <strong>CGPI : 8.21</strong>
+                  <strong>CGPI : 8.4</strong>
                 </p>
               </div>
 
@@ -47,15 +47,24 @@ function ResumeSection() {
             </header>
             <div id="content">
               <div className="box">
-                {/* <h4>2020-2021</h4>
-                        <h3>Class 12th</h3>
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Numquam ut fugiat eum dolorem deserunt! Ex, quam maxime! Error quis, assumenda, hic quaerat est architecto ab tenetur quibusdam ipsum, laboriosam rem.</p> */}
+                <h4>Society of Civil Engineering of NIT Hamirpur Website</h4>
+                <h3>React.js, HTML , TailwindCSS</h3>
+                <p>
+                  • Designed and implemented UI for college civil Society
+                  website.
+                </p>
+                <p>
+                  • Fully Responsive for various width devices and optimized
+                  using React-Scroll and MaterialUI
+                </p>
+                <p>• Worked in team of 4 member to create fully Responsive for various width devices and optimized using React-Scroll and MaterialUI</p>
               </div>
 
               <div className="box">
-                {/* <h4>2020-2021</h4>
-                        <h3>Class 12th</h3>
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Numquam ut fugiat eum dolorem deserunt! Ex, quam maxime! Error quis, assumenda, hic quaerat est architecto ab tenetur quibusdam ipsum, laboriosam rem.</p> */}
+                {/* <h4>2020-2021</h4> */}
+                        <h3>AI-Thon</h3>
+                        <p>Organized by Intel India and Central Board of Secondary Education (CBSE) where we learn about AI
+and Machine Learning Technologies using Python Libraries.</p>
               </div>
             </div>
           </section>

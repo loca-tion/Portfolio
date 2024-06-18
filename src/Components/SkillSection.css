@@ -34,7 +34,7 @@
   bottom: 0;
   left: 0;
   right: 0;
-  background: rgba(9, 9, 9, 0.4);
+  background: rgba(9, 9, 9, 0.757);
   overflow: hidden;
   width: 100%;
   height: 0;
@@ -50,12 +50,13 @@
   height: 100%;
 }
 
-.overlay h4 {
+.card:hover .overlay h4 {
   width: 100%;
   margin-top: 50%;
   text-align: center;
-  font-size: larger;
-  color: #fefefe;
+  font-weight: bolder;
+  font-size: 2rem;
+  color: #cd5ff8;
 }
 
 @media screen and (max-width:960px) {

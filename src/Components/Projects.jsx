@@ -3,7 +3,6 @@ import "./Projects.css";
 import PJ1 from "../Images/project1.png"
 import PJ2 from "../Images/project2.png"
 import PJ3 from "../Images/project3.png"
-import PJ4 from "../Images/calculator.jpg";
 
 function Projects() {
   return (
@@ -15,43 +14,36 @@ function Projects() {
         <p>Here are a few projects I've worked on recently.</p>
       </div>
       <div className="row">
-        <a href="https://github.com/loca-tion/Shopping-Cart-Website">
+        <a href="https://github.com/loca-tion/E-Commerce-App">
         <div className="project-card" style={{ margin: "2rem" }}>
           <img
             src={PJ1}
             alt="No"
-          ></img>
-          <h3>Shopping Cart Website</h3>
+           className="images"></img>
+          <h3>E-Commerce App</h3>
         </div>
         </a>
-        <a href="https://github.com/loca-tion/Daily-Journal-">
-        <div className="project-card" style={{ margin: "2rem" }}>
-          <img
-            src={PJ2}
-            alt="No"
-          ></img>
-          <h3>Daily Journal</h3>
-        </div>
-        </a>
-        <a href="https://github.com/loca-tion/Shopping-website-UI">
+        <a href="https://github.com/loca-tion/Live-Code-Editor-Backend">
         <div className="project-card" style={{ margin: "2rem" }}>
           <img
             src={PJ3}
             alt="No"
+            className="images"
           ></img>
-          <h3>Shopping website UI</h3>
+          <h3>Live Cde Editor</h3>
         </div>
         </a>
-        <a href="https://github.com/loca-tion/Calculator">
+        <a href="https://github.com/loca-tion/FreshInk-App">
         <div className="project-card" style={{ margin: "2rem" }}>
           <img
-            src={PJ4}
+            src={PJ2}
             alt="No"
+            className="images"
           ></img>
-          <h3>Calculator</h3>
+          <h3>FreshInk : Blog App</h3>
         </div>
         </a>
-      </div>
+    </div>
     </div>
   );
 }

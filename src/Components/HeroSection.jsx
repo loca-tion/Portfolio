@@ -11,7 +11,7 @@ function HeroSection() {
         <h4>I'M <strong>SUJAL SHARMA</strong></h4>
         <div className="text" style={{color:'#cd5ff8'}}>
           <Typewriter
-          options={{autoStart:true,loop:true,delay:40,strings:['Web Developer','Competetive programmer','Computer Science Enthusiast','Sophomore at NITH']}}
+          options={{autoStart:true,loop:true,delay:40,strings:['Web Developer','Competetive programmer','Computer Science Enthusiast']}}
            />
         </div>
       </div>
